@@ -26,21 +26,12 @@
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/ejs");
     editor.on("change", update);
-    editor.setValue(`OK, so have fun! :D
+    editor.setValue(`OK, 我们来写第一段 ejs 代码吧!
 -------------------
 <%
-    var fruits = ["Apple", "Pear", "Orange", "Lemon"]
-      , random = " ".repeat(198).split("").map(x => Math.random())
-      ;
+    var num = 100;
 %>
-
-These fruits are amazing:
-<% for(var i = 0; i < fruits.length; ++i) {%>
-  - <%=fruits[i]%>s<% } %>
-
-Let's see some random numbers:
-
-<% random.forEach((c, i) => {
-%> <%=c.toFixed(10) + ((i + 1) % 6 === 0 ? "\\n": "") %><%});%>`, -1);
+打印定义过的值:
+<% if(num > 50) { %>num的值为: <%= num %><% } %>`, -1);
     editor.focus();
 })();

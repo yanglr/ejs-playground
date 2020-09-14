@@ -1,6 +1,6 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/gridly/1.4.1/prefixed/gridly.min.css);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.css);
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://cdn.jsdelivr.net/gh/IonicaBizau/gridly/dist/prefixed/gridly.min.css);
+@import url(https://geekplayers.com/bower_components/octicons/octicons/octicons.css);
+/* @import url(https://fonts.googleapis.com/css?family=Cutive+Mono); */
 
 .row {
     height: 100vh;
