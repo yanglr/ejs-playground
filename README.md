@@ -9,6 +9,12 @@
 
 [![ejs-playground](http://i.imgur.com/Hbq4N7t.png)](https://ionicabizau.github.io/ejs-playground)
 
+原地址: <https://ionicabizau.github.io/ejs-playground/>
+<br/>
+
+中文版地址:
+[EJS Sandbox_极客玩家大白](https://geekplayers.com/tools/ejs/) 
+
 ### 第一行`ejs`代码
 ```ejs
 OK, so have fun!
